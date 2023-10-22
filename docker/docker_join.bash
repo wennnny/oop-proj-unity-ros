@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-NAME=locobot_rsa
-REPOSITORY="argnctu/rsa"
+NAME=aoop
+REPOSITORY="argnctu/aoop_unity"
 TAG="latest"
-REPO_NAME=Aoop_unity_starter_kit
+REPO_NAME=oop-proj-unity-ros
 
 IMG="${REPOSITORY}:${TAG}"
 

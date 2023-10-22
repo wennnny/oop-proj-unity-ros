@@ -3,9 +3,9 @@
 ARGS=("$@")
 
 NAME=rsa
-REPOSITORY="argnctu/rsa"
+REPOSITORY="argnctu/aoop_unity"
 TAG="latest"
-REPO_NAME=Aoop_unity_starter_kit
+REPO_NAME=oop-proj-unity-ros
 
 IMG="${REPOSITORY}:${TAG}"
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-REPOSITORY="argnctu/rsa"
+REPOSITORY="argnctu/aoop_unity"
 TAG="latest"
 
 IMG="${REPOSITORY}:${TAG}"

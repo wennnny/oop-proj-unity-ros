@@ -21,7 +21,7 @@ WORKDIR /home/${USER}
 RUN cp /root/.bashrc ~/.bashrc
 
 RUN echo "root:root" | chpasswd
-RUN echo "${USER}:rsa" | chpasswd
+RUN echo "${USER}:aoop" | chpasswd
 
 RUN apt-get -o Acquire::ForceIPv4=true update && apt-get -yq dist-upgrade \
     && apt-get -o Acquire::ForceIPv4=true install -yq --no-install-recommends \
@@ -61,6 +61,7 @@ RUN pip3 install --upgrade pip \
 
 RUN apt-get -o Acquire::ForceIPv4=true update && apt-get -yq dist-upgrade \
 && apt-get -o Acquire::ForceIPv4=true install -yq --no-install-recommends \
-ros-${ROS_DISTRO}-robot-localization
+ros-${ROS_DISTRO}-rosbridge-server
+
 
 RUN echo 'source /opt/ros/noetic/setup.bash' >> ~/.bashrc
