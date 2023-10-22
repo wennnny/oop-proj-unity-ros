@@ -30,4 +30,4 @@ else
 fi
 
 source /opt/ros/noetic/setup.bash
-source ~/Aoop_unity_starter_kit/catkin_ws/devel/setup.bash
+source ~/aoop_unity_starter_kit/catkin_ws/devel/setup.bash
