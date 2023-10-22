@@ -5,3 +5,4 @@ logs
 __pycache__/
 tags
 *.pyc
+.catkin_workspace
