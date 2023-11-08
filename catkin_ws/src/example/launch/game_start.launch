@@ -1,0 +1,7 @@
+<launch>
+	roslaunch rosbridge_server rosbridge_websocket.launch
+
+	<node name="cube_position_node" pkg="example" type="cube_position.py" output="screen"/>
+	<node name="get_position_node" pkg="example" type="get_position.py" output="screen"/>
+
+</launch>
